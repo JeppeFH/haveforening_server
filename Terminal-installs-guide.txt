@@ -1,0 +1,51 @@
+terminal packages:
+
+________________________________________
+
+Opsætning:
+Skriv "npm init -y"
+Skriv "npm i express"
+________________________________________
+
+Starte server (localhost):
+Skriv "node server.js"
+________________________________________
+
+Mongoose:
+Skriv "npm i mongoose"
+________________________________________
+
+dbConnect.js:
+
+indsæt dokument dbConnect.js
+
+Skriv "npm i dotenv" i terminal
+
+tilføj ny file, kald den ".env.local"
+
+
+Indsæt dette i dokumentet:
+
+```
+# Secret Variables for use in Server Application.
+NODE_ENV=development
+
+SERVER_PORT=3000 # (skal passe med localhost i dit projekt)
+SERVER_HOST=http://localhost:3000 # (skal passe med localhost i dit projekt)
+
+MONGODB_URI=mongodb://127.0.0.1:27017/mcd-express-server
+
+# JWT
+JWT_EXPIRES_IN="24h"
+JWT_SECRET="8e18fa26acc704d3ca37fea29e17e8e024423a7c3eab4b76390a94ac579c20f0"
+
+# Flags.
+USE_JWT=false
+
+```
+```
+
+________________________________________
+
+Multer:
+Skriv "npm i multer"
